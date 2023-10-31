@@ -15,7 +15,7 @@ HELP_MESSAGE = """
 "group_type":"month"} 
 """
 
-load_dotenv()
+load_dotenv()#TODO: move this to the .env
 API_TOKEN = os.environ.get("TELEGRAMM_BOT_TOKEN")
 DATABASE_NAME = "sampleDB"
 DATABASE_COLLECTION_NAME = "sample_collection"
